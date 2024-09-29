@@ -4,7 +4,7 @@ Este repositório contém uma estrutura básica para projetos em **MVC (Model-Vi
 
 ## O que é MVC?
 
-O padrão **MVC** (Model-View-Controller) é um padrão de arquitetura de software que separa a aplicação em três componentes principais:
+O padrão **MVC** (Model-View-Controller) é uma arquitetura de software que separa a aplicação em três componentes principais:
 
 - **Model (Modelo)**: Responsável pela lógica de negócios e comunicação com o banco de dados.
 - **View (Visão)**: Responsável pela exibição de dados e interface com o usuário.
@@ -16,8 +16,8 @@ A estrutura do projeto segue a seguinte hierarquia de diretórios e arquivos:
 
 ```bash
 /
-├── /assets          # Arquivos estáticos como imagens, CSS, e JavaScript
-├── /bd              # Scripts relacionados ao banco de dados
+├── /01-bd           # Estrutura do banco de dados
+├── /assets          # Arquivos estáticos como imagens, CSS e JavaScript
 ├── /source          # Código fonte principal da aplicação
 │   ├── /App         # Contém os controladores principais da aplicação
 │   ├── /Boot        # Arquivos de inicialização e configuração do sistema
